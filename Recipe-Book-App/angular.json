@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Recipe-Book-App"
+    }
+  },
+  "defaultProject": "Recipe-Book-App",
+  "cli": {
+    "analytics": false
+  }
 }
