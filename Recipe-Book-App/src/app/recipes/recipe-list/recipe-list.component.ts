@@ -12,7 +12,7 @@ export class RecipeListComponent implements OnInit {
     new Recipe('A Test Recipe', 'This is simple a test',
     'https://upload.wikimedia.org/wikipedia/commons/1/15/Recipe_logo.jpeg'),
     new Recipe('Another Test Recipe', 'This is simple a test',
-    'https://upload.wikimedia.org/wikipedia/commons/1/15/Recipe_logo.jpeg')
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSdesigqHJ_Zt27t_FpsKmqwOeNPMoQX9yWmQ&usqp=CAU')
   ];
   @Output() recipeWasSelected = new EventEmitter<Recipe>();
 
