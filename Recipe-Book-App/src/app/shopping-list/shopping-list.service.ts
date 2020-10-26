@@ -18,6 +18,7 @@ export class ShoppingListService{
     }
 
     addIngredients(ingredients: Ingredient[]): void{
+        // const b = this.ingredients.some((val) => this.ingredients.indexOf(val) !== -1);
         this.ingredients.push(...ingredients);
         this.ingredientsChanged.emit(this.ingredients.slice());
     }
